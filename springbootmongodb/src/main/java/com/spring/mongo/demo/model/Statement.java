@@ -16,6 +16,9 @@ import java.io.Serializable;
 @Builder
 public class Statement {
 
+    @Id
+    private String id;
+
     private Double DR;
     private Double CR;
     private String date;
