@@ -18,7 +18,7 @@ public interface CustomerQueryService {
 
     List<Customer> getEmployeeBySalaryGreaterThan(int salary);
 
-    List<Customer> getEmployeeByCondition(Customer employee);
+    List<Customer> getEmployeeByCondition(Customer customer);
 
 
 }

@@ -7,8 +7,6 @@ import com.spring.mongo.demo.service.CustomerQueryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.spring.mongo.demo.model.Employee;
-
 @RestController
 @RequestMapping("/customer-query")
 public class CustomerQueryController {

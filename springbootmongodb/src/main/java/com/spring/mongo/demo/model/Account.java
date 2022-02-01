@@ -1,6 +1,22 @@
 package com.spring.mongo.demo.model;
 
-public class Account {
+import lombok.Builder;
+import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.io.Serializable;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class Account implements Serializable{
+
+    @Id
+    private String id;
 
     private Double accountNumber;
     private String dateOfCreation;
@@ -13,6 +29,8 @@ public class Account {
     private String creditAmnt;
     private String debitNarration;
     private String creditNarration;
+
+    
 
     public Double getAccountNumber() {
         return accountNumber;

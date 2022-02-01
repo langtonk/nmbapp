@@ -22,7 +22,7 @@ public class SpringBootMongoDBApplication {
 		SpringApplication.run(SpringBootMongoDBApplication.class, args);
 	}
 
-	
+
 	@Bean
 	CommandLineRunner runner() {
 		return args -> {

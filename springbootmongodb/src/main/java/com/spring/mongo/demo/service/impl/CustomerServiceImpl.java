@@ -3,7 +3,6 @@ package com.spring.mongo.demo.service.impl;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.spring.mongo.demo.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

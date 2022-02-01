@@ -4,7 +4,6 @@ package com.spring.mongo.demo.service;
 import java.util.List;
 
 import com.spring.mongo.demo.model.Customer;
-import com.spring.mongo.demo.model.Employee;
 
 public interface CustomerService {
 

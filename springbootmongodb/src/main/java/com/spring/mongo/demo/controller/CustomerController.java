@@ -2,7 +2,6 @@ package com.spring.mongo.demo.controller;
 
 import java.util.List;
 
-import com.spring.mongo.demo.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -22,15 +21,11 @@ public class CustomerController {
         return customerService.getAll();
     }
 
-//    @GetMapping("/{empId}")
-//    public Customer getEmployeeById(@PathVariable int empId ) {
-//        return customerService.getEmployeeById(empId);
-//    }
 
 
     @PostMapping("/save")
-    public Customer save(@RequestBody Customer employee) {
-        return customerService.save(employee);
+    public Customer save(@RequestBody Customer customer) {
+        return customerService.save(customer);
 
     }
 
