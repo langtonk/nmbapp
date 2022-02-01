@@ -10,9 +10,9 @@ public interface StatementService {
 
     Statement findById(String id);
 
-    Statement save(Statement superHero);
+    Statement save(Statement statement);
 
-    Statement update(Statement superHero);
+    Statement update(Statement statement);
 
     void delete(String id);
 }

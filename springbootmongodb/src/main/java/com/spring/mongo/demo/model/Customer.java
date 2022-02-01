@@ -1,6 +1,7 @@
 package com.spring.mongo.demo.model;
 
 
+import com.spring.mongo.demo.component.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -28,6 +29,6 @@ public class Customer implements Serializable {
     private Boolean homeOwner;
     private String username;
     private String creationDate;
-    private String gender;
+    private Gender gender;
 
 }

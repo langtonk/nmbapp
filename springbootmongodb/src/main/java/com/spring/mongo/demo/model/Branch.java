@@ -17,7 +17,7 @@ public class Branch {
     @Id
     private String id;
 
-    private Double name;
+    private String name;
     private Double code;
     private String location;
 }

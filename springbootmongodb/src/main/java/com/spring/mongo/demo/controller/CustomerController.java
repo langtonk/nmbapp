@@ -21,10 +21,6 @@ public class CustomerController {
         return customerService.getAll();
     }
 
-//    @GetMapping("/{empId}")
-//    public Customer getEmployeeById(@PathVariable int empId ) {
-//        return customerService.getEmployeeById(empId);
-//    }
 
 
     @PostMapping("/save")

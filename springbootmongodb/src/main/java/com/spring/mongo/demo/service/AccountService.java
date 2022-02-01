@@ -10,9 +10,9 @@ public interface AccountService {
 
     Account findById(String id);
 
-    Account save(Account superHero);
+    Account save(Account account);
 
-    Account update(Account superHero);
+    Account update(Account account);
 
     void delete(String id);
 }
